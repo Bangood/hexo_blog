@@ -71,4 +71,4 @@ deploy:
   type: git
   repo: https://github.com/cunshuifengyun/hexo_blog.git
   branch: gh-pages
-  message: 'hh'
+  message: 'public'
