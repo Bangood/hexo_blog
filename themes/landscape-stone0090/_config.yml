@@ -30,17 +30,9 @@ links:
 
 # recommend_posts
 recommend_posts:
-  《JavaScript 闯关记》: /2016/07/24/javascript-lesson-readme/
-  DSOframer的简单介绍和资源整理: /2015/09/02/dsoframer-introduction-resources/
-  DSOframer微软官方API的查阅方法: /2015/09/11/dsoframer-frequently-asked-question2/
-  DSOframer无法正常加载的解决方案: /2015/08/31/dsoframer-frequently-asked-question1/
-  C#技术分享-PDF转图片的10种方法: /2012/02/15/office-pdf2image/
-  C#技术分享-DOC转图片的3种方法: /2012/02/22/office-doc2image/
-  DoNet开源项目-基于jQuery EasyUI的后台管理系统: /2015/08/30/donet-opensource-stonefw-introduction/
-  DoNet开源项目-基于Amaze UI的点餐系统: /2016/01/17/donet-opensource-dian-introduction/
-  Hexo官方主题landscape-plus优化: /2015/08/29/hexo-theme-landscape-plus-optimize/
-  CSS基础知识之position: /2016/04/17/frontend-css-position-learning-note/
-  CSS基础知识之float: /2016/06/10/frontend-css-float-learning-note/
+  
+  我用Hexo搭建本博客的全过程: /2016/10/12/hexo-my-blog/
+  
 
 # Miscellaneous
 google_analytics:
@@ -69,15 +61,10 @@ official_accounts_text: 订阅「石佳劼的博客」
 
 # 关注我
 follow_mes:
-  我的「微信公众号」: http://7xkhp9.com1.z0.glb.clouddn.com/weixin/qrcode_258.jpg
-  我的「微博」: http://weibo.com/605494869
-  我的「知乎」: http://www.zhihu.com/people/stone0090
-  我的「简书」: http://www.jianshu.com/users/0005893eaff9/latest_articles
-  我的「博客园」: http://www.cnblogs.com/shi0090
-  我的「V2EX」: https://www.v2ex.com/member/stone0090
-  我的「CSDN」: http://blog.csdn.net/shi0090
-  我的「GitHub」: https://github.com/stone0090
-  我的「SegmentFault」: https://segmentfault.com/u/stone0090
+  我的「微信公众号」: http://oexmgkpcg.bkt.clouddn.com/weixinhao.jpg
+ 
+  我的「GitHub」: https://github.com/cunshuifengyun
+  
 
 # 网站备案号
 website_icp:
