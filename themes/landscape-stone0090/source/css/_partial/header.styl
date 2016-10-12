@@ -62,7 +62,7 @@ $logo-text
   font-size: subtitle-size
   line-height: subtitle-size
   letter-spacing: 1px
-  color: #687E91
+  color: #A8E617
 
 #subtitle-wrap
   margin-top: subtitle-size
@@ -73,8 +73,8 @@ $logo-text
 
 $nav-link
   float: left
-  color: #fff
-  opacity: 0.6
+  color: #EF820E
+  font-size: larger;
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
@@ -96,13 +96,17 @@ $nav-link
 
 .main-nav-link
   @extend $nav-link
-  font-weight: 300
+  font-weight: bolder
   letter-spacing: 1px
+  @media mq-mobile
+    display: none
 
 #main-nav-toggle
   display: none
   &:before
     content: "\f0c9"
+  @media mq-mobile
+    display: block
 
 #sub-nav
   float: right
