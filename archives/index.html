@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives | cunshuifengyun</title>
+  <title>Archives | cunshuifengyuns</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="cunshuifengyun">
+<meta property="og:title" content="cunshuifengyuns">
 <meta property="og:url" content="https://cunshuifengyun.github.io/archives/index.html">
-<meta property="og:site_name" content="cunshuifengyun">
+<meta property="og:site_name" content="cunshuifengyuns">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="cunshuifengyun">
+<meta name="twitter:title" content="cunshuifengyuns">
   
   
     <link rel="icon" href="/favicon.png">
@@ -28,8 +28,12 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/hexo_blog/" id="logo">cunshuifengyun</a>
+        <a href="/hexo_blog/" id="logo">cunshuifengyuns</a>
       </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo_blog/" id="subtitle">带我装逼带我飞</a>
+        </h2>
       
     </div>
     <div id="header-inner" class="inner">
@@ -39,6 +43,8 @@
           <a class="main-nav-link" href="/hexo_blog/">首页</a>
         
           <a class="main-nav-link" href="/hexo_blog/archives">文章</a>
+        
+          <a class="main-nav-link" href="/hexo_blog/about">关于</a>
         
       </nav>
       <nav id="sub-nav">
@@ -105,7 +111,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo_blog/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li></ul>
     </div>
@@ -114,7 +120,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">近期文章</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -148,10 +154,12 @@
   
     <a href="/hexo_blog/archives" class="mobile-nav-link">文章</a>
   
+    <a href="/hexo_blog/about" class="mobile-nav-link">关于</a>
+  
 </nav>
   <!-- totop start -->
 <div id="totop">
-<a title="返回顶部"><img src="/hexo_blog/img/scrollup.png"/></a>
+<a title="totop"><img src="/hexo_blog/img/scrollup.png"/></a>
 </div>
 
 <!-- totop end -->
@@ -172,6 +180,30 @@ var duoshuoQuery = {short_name:"cunshuifengyun"};
 
 
 <!-- 百度分享 start -->
+
+<div id="article-share-box" class="article-share-box">
+  <div id="bdshare" class="bdsharebuttonbox article-share-links">
+    <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a class="article-share-weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a class="article-share-qq" data-cmd="sqq" title="分享到QQ"></a>
+    <a class="article-share-renren" data-cmd="renren" title="分享到人人网"></a>
+    <a class="article-share-more" data-cmd="more" title="更多"></a>
+  </div>
+</div>
+<script>
+  function SetShareData(cmd, config) {
+    if (shareDataTitle && shareDataUrl) {
+      config.bdText = shareDataTitle;
+      config.bdUrl = shareDataUrl;
+    }
+    return config;
+  }
+  window._bd_share_config={
+    "common":{onBeforeClick: SetShareData},
+    "share":{"bdCustomStyle":"/hexo_blog/css/bdshare.css"}
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
 
 <!-- 百度分享 end -->
 
