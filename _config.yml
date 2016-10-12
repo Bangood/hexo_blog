@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: cunshuifengyun
-subtitle:
-description:
+title: 风雨楼
+subtitle: 倚楼听风雨，淡看江湖路
+description: javascript | cunshuifengyun's blog
 author: cunshuifengyun
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: landscape-stone0090
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

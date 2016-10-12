@@ -1,0 +1,39 @@
+# Header
+menu:
+  首页: /
+  文章: /archives
+  关于: /about
+
+# Content
+excerpt_link: Read More
+fancybox: false
+mathjax: false
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+#- links
+
+# Links
+#links:
+#  主题作者: http://arvinxiang.com
+  
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+fb_admins: 
+fb_app_id:
+
+# Duoshuo
+duoshuo_shortname: cunshuifengyun
+
+# Baidu share
+baidushare: true
