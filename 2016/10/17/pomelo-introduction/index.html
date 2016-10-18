@@ -4,26 +4,23 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我用Hexo搭建博客的全过程 | 风雨楼</title>
+  <title>初识pomelo | 风雨楼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Set render engine for 360 browser -->
   <meta name="renderer" content="webkit">
   <!-- No Baidu Siteapp-->
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <meta name="description" content="开篇废话本段将啰嗦下我创建本博客的起因和经过，众看官可直接略过。
-能创建本博客，完全是因缘际会，无心插柳柳成荫。本来在网上找Javascript的学习资料的，找到了 劼哥舍(＞﹏＜) 的 《JavaScript闯关记》。就像看书喜欢先看序言一样，网站我一般会去先看看关于页面，好巧不巧，博主把他创建自己博客的参考文章贴了出来，也就是 不如 童鞋的 hexo你的博客，于是我便以不如的这篇教程为引，开始">
+  <meta name="description" content="pomelo简介作为网易公司开源(Github项目地址)的一个轻量级游戏服务器框架，pomelo具有高性能、高可伸缩、分布式、多进程等特点。pomelo使用MIT开源协议发布，适用于中小型游戏开发。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我用Hexo搭建博客的全过程">
-<meta property="og:url" content="https://cunshuifengyun.github.io/2016/10/12/hexo-my-blog/index.html">
+<meta property="og:title" content="初识pomelo">
+<meta property="og:url" content="https://cunshuifengyun.github.io/2016/10/17/pomelo-introduction/index.html">
 <meta property="og:site_name" content="风雨楼">
-<meta property="og:description" content="开篇废话本段将啰嗦下我创建本博客的起因和经过，众看官可直接略过。
-能创建本博客，完全是因缘际会，无心插柳柳成荫。本来在网上找Javascript的学习资料的，找到了 劼哥舍(＞﹏＜) 的 《JavaScript闯关记》。就像看书喜欢先看序言一样，网站我一般会去先看看关于页面，好巧不巧，博主把他创建自己博客的参考文章贴了出来，也就是 不如 童鞋的 hexo你的博客，于是我便以不如的这篇教程为引，开始">
-<meta property="og:updated_time" content="2016-10-13T07:44:12.824Z">
+<meta property="og:description" content="pomelo简介作为网易公司开源(Github项目地址)的一个轻量级游戏服务器框架，pomelo具有高性能、高可伸缩、分布式、多进程等特点。pomelo使用MIT开源协议发布，适用于中小型游戏开发。">
+<meta property="og:updated_time" content="2016-10-18T02:11:56.621Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我用Hexo搭建博客的全过程">
-<meta name="twitter:description" content="开篇废话本段将啰嗦下我创建本博客的起因和经过，众看官可直接略过。
-能创建本博客，完全是因缘际会，无心插柳柳成荫。本来在网上找Javascript的学习资料的，找到了 劼哥舍(＞﹏＜) 的 《JavaScript闯关记》。就像看书喜欢先看序言一样，网站我一般会去先看看关于页面，好巧不巧，博主把他创建自己博客的参考文章贴了出来，也就是 不如 童鞋的 hexo你的博客，于是我便以不如的这篇教程为引，开始">
+<meta name="twitter:title" content="初识pomelo">
+<meta name="twitter:description" content="pomelo简介作为网易公司开源(Github项目地址)的一个轻量级游戏服务器框架，pomelo具有高性能、高可伸缩、分布式、多进程等特点。pomelo使用MIT开源协议发布，适用于中小型游戏开发。">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -98,10 +95,10 @@ var _hmt = _hmt || [];
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-hexo-my-blog" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-pomelo-introduction" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/hexo_blog/2016/10/12/hexo-my-blog/" class="article-date">
-  <time datetime="2016-10-12T09:52:51.000Z" itemprop="datePublished">2016-10-12</time>
+    <a href="/hexo_blog/2016/10/17/pomelo-introduction/" class="article-date">
+  <time datetime="2016-10-17T03:14:41.000Z" itemprop="datePublished">2016-10-17</time>
 </a>
     
   </div>
@@ -112,7 +109,7 @@ var _hmt = _hmt || [];
         
   
     <h1 class="article-title" itemprop="name">
-      我用Hexo搭建博客的全过程
+      初识pomelo
     </h1>
   
 
@@ -122,24 +119,7 @@ var _hmt = _hmt || [];
       
         <!-- Table of Contents -->
         
-        <h1 id="开篇废话"><a href="#开篇废话" class="headerlink" title="开篇废话"></a>开篇废话</h1><p>本段将啰嗦下我创建本博客的起因和经过，众看官可直接略过。</p>
-<p>能创建本博客，完全是因缘际会，无心插柳柳成荫。本来在网上找Javascript的学习资料的，找到了 <a href="http://shijiajie.com/" target="_blank" rel="external">劼哥舍(＞﹏＜)</a> 的 <a href="http://shijiajie.com/2016/07/24/javascript-lesson-readme/" target="_blank" rel="external">《JavaScript闯关记》</a>。就像看书喜欢先看序言一样，网站我一般会去先看看<code>关于</code>页面，好巧不巧，博主把他创建自己博客的参考文章贴了出来，也就是 <a href="http://ibruce.info/" target="_blank" rel="external">不如</a> 童鞋的 <a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a>，于是我便以不如的这篇教程为引，开始了搭建自己博客之不归路。</p>
-<p>为什么我会选择Hexo，其一，<a href="http://shijiajie.com/" target="_blank" rel="external">劼哥舍(＞﹏＜)</a> 这个博客看起来还是挺不错的，其二，正好有一篇现成的搭建指南（<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a>），其三，有了前面两点，我就已经开始行动了。</p>
-<p>其实不如童鞋的教程已经写得很详细了，那为什么我还要多此一举呢。我就是想通过写写博客来锻炼自己的文字表达能力（大家应该也看出来了，我的博文写得还是符合烂的标准的，所以还望各位海涵），当然，本篇教程还是和不如的那篇有所区别的。下面我就将我搭建本博客的整个过程，整理出来。<br>注意：配置Github部署 脚本在使用时，会将 用户名.github.io 仓库中的内容以Hexo生成的文件覆盖。。</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>(本人所有操作都是基于win7，不知道在其他环境下是否一样，仅供参考，下面某些工具的版本号，只是我电脑上的版本号，没有硬性规定。)</p>
-<ul>
-<li><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a> (必选)-v6.2.2</li>
-<li><a href="https://git-scm.com/downloads" target="_blank" rel="external">Git</a>-v2.7.4</li>
-<li><a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text3</a></li>
-<li><a href="https://github.com" target="_blank" rel="external">GitHub帐号</a></li>
-<li><a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云账号</a></li>
-<li><a href="http://duoshuo.com/" target="_blank" rel="external">多说账号</a><h1 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h1><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h1 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h1><a id="more"></a>
-<h1 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h1>@pinghailinfeng|jeffsui.github.io <h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1></li>
-</ul>
-<ol>
-<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a></li>
-<li><a href="http://www.jianshu.com/p/858ecf233db9" target="_blank" rel="external">通过Hexo在Github上搭建博客教程</a></li>
-</ol>
+        <h1 id="pomelo简介"><a href="#pomelo简介" class="headerlink" title="pomelo简介"></a>pomelo简介</h1><p>作为网易公司开源(<a href="https://github.com/NetEase/pomelo" target="_blank" rel="external">Github项目地址</a>)的一个轻量级游戏服务器框架，pomelo具有高性能、高可伸缩、分布式、多进程等特点。<br>pomelo使用MIT开源协议发布，适用于中小型游戏开发。</p>
 
       
       
@@ -154,11 +134,11 @@ var _hmt = _hmt || [];
     
     <footer class="article-footer">
       
-        <a data-url="https://cunshuifengyun.github.io/hexo_blog/2016/10/12/hexo-my-blog/" data-id="ciufgu7rw0001u4jnu6fv4q2g" class="article-share-link" data-share="baidu" data-title="我用Hexo搭建博客的全过程">分享到</a>
+        <a data-url="https://cunshuifengyun.github.io/hexo_blog/2016/10/17/pomelo-introduction/" data-id="ciufgu7te0004u4jnrzt7popn" class="article-share-link" data-share="baidu" data-title="初识pomelo">分享到</a>
       
 
       
-        <a href="https://cunshuifengyun.github.io/hexo_blog/2016/10/12/hexo-my-blog/#ds-thread" class="article-comment-link">评论</a>
+        <a href="https://cunshuifengyun.github.io/hexo_blog/2016/10/17/pomelo-introduction/#ds-thread" class="article-comment-link">评论</a>
       
 
       
@@ -168,15 +148,20 @@ var _hmt = _hmt || [];
     
 <nav id="article-nav">
   
-    <a href="/hexo_blog/2016/10/17/pomelo-introduction/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/hexo_blog/2016/10/18/pomelo-install/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title">
         
-          初识pomelo
+          安装pomelo
         
       </div>
     </a>
   
+  
+    <a href="/hexo_blog/2016/10/12/hexo-my-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">我用Hexo搭建博客的全过程</div>
+    </a>
   
 </nav>
 
@@ -185,7 +170,7 @@ var _hmt = _hmt || [];
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2016/10/12/hexo-my-blog/" data-title="我用Hexo搭建博客的全过程" data-url="https://cunshuifengyun.github.io/hexo_blog/2016/10/12/hexo-my-blog/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016/10/17/pomelo-introduction/" data-title="初识pomelo" data-url="https://cunshuifengyun.github.io/hexo_blog/2016/10/17/pomelo-introduction/"></div>
   </section>
 </section>
       
